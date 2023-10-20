@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\IRDbAPI\\IRDbAPI.csproj": {}
+    "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\IRDbAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\IRDbAPI\\IRDbAPI.csproj": {
+    "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\IRDbAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\IRDbAPI\\IRDbAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\IRDbAPI.csproj",
         "projectName": "IRDbAPI",
-        "projectPath": "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\IRDbAPI\\IRDbAPI.csproj",
+        "projectPath": "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\IRDbAPI.csproj",
         "packagesPath": "C:\\Users\\ligia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\IRDbAPI\\obj\\",
+        "outputPath": "C:\\Users\\ligia\\Documents\\OOP_AI\\OOP_Avancerad\\MYCODES\\IRDbAPI\\IRDbAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.3.0-preview1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.12, )"
